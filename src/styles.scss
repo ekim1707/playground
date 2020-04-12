@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bodyContainer {
+  padding-top: 240px;
+  transition: padding 1s;
+}
