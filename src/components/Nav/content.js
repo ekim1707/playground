@@ -1,4 +1,5 @@
 export default [
-    "HOME",
-    "DEMO"
+    "home",
+    "demo",
+    "react-refs"
 ];

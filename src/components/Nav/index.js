@@ -8,7 +8,7 @@ export default ({
     navIsOpen,
     setNavIsOpen
 }) => {
-    const linkArray = content.map((LINK, i) => <NavLink to={LINK === "HOME" ? "/" : `/${LINK}`} key={i}>{LINK}</NavLink>);
+    const linkArray = content.map((LINK, i) => <NavLink to={LINK === "home" ? "/" : `/${LINK}`} key={i}>{LINK}</NavLink>);
     return (
         <section className="navContainer" style={navIsOpen ? {} : { height: "20px" }}>
             <Button 
