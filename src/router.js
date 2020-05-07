@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import Homepage from "./directories/Homepage";
 import Demo from "./directories/Demo";
 import ChangeIMEI from "./directories/ChangeIMEI";
+import PracticeWithClass from "./directories/PracticeWithClass";
 
 export default () => {
     const [navIsOpen, setNavIsOpen] = useState(true);
@@ -21,6 +22,7 @@ export default () => {
                     <Route path="/" component={Homepage} exact />
                     <Route path="/demo" component={Demo} exact />
                     <Route path="/react-refs" component={ChangeIMEI} exact />
+                    <Route path="/class-practice" component={PracticeWithClass} exact />
                 </Switch>
             </div>
         </Router>

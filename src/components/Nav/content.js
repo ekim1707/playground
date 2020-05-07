@@ -1,5 +1,6 @@
 export default [
     "home",
     "demo",
-    "react-refs"
+    "react-refs",
+    "class-practice"
 ];
